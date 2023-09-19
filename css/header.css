@@ -1,0 +1,252 @@
+.header{
+    background-color:aliceblue;
+   color: lightseagreen;
+}
+.titl{
+    color: lightseagreen;
+}
+.navigation{
+    background-color:lightseagreen ; 
+}
+.color {
+  color: aliceblue;
+  font-weight: bold;
+}
+.navbar-brand{
+    color: lightseagreen;
+}
+.center{
+    text-align:justify;
+    padding: 20px;
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: large;
+}
+.cl{
+    color: black ;
+}
+
+/* hero image */
+
+
+.hero {
+    background-image: url('../images/SL.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .hero-content {
+    text-align: center;
+    /* color: #fff; */
+  }
+  
+  .hero-text {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .hero-button {
+    padding: 0.6rem 1.0rem;
+    font-size: 1.2rem;
+    background-color: white;
+    color:lightseagreen;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight:bold ;
+  }
+  
+  .hero-button:hover {
+    background-color: black;
+    color: #fff;
+  }
+
+
+  /* about */
+
+  .bg{
+    background-color: lightseagreen;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .txt{
+    text-align: center;
+  }
+  .img{
+    height: 400px;
+    width: 520px;
+  }
+
+  /* package */
+
+
+  .text{
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .gold{
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+  }
+  .silver{
+    color: silver;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+  }
+  .brownce{
+    color: #964B00;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+  }
+  .border-custom{
+    border-color: #20b2aa;
+    border-radius: 50px;
+    border-width: 2px;
+  }
+
+  .card:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 0 0 3px #20b2aa;
+    border-color:#20b2aa;
+    border-width: 3px;
+}
+
+.dark:hover {
+    background-color: black;
+    color: white;
+}
+.section-title{
+    color: #20b2aa;
+}
+
+/* booking */
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #20b2aa;
+    border-radius: 4px;
+}
+.form-select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #20b2aa;
+    border-radius: 4px;
+}
+
+.form-button {
+    margin-top: 30px;
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #20b2aa;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .form-container {
+        width: 100%;
+    }
+}
+ 
+/* contact */
+
+.contact-container {
+  background-color: #20b2aa;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container:hover {
+  background-color: #000;
+}
+
+.contact-container:hover h4,
+.contact-container:hover p {
+  color: #fff;
+}
+
+/* login */
+
+
+.shadow-box {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #20b2aa;
+  border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #20b2aa;
+  color: white;
+  width:200px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .shadow-box {
+      max-width: 100%;
+  }
+}
+
+  
